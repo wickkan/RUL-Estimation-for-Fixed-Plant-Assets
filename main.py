@@ -6,7 +6,7 @@ import joblib
 import pandas as pd
 
 # Load the model
-model = joblib.load('optimized_xgboost_model.pkl')
+model = joblib.load('optimised_xgboost_model.pkl')
 
 app = Flask(__name__)
 
